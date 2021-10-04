@@ -1,3 +1,5 @@
+// I've created fake data object here
+
 const courses = [
   {
     id: 1,

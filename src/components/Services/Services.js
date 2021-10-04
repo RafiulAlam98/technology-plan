@@ -2,6 +2,8 @@ import React from 'react';
 import Service from '../Service/Service';
 import useFakeDbServices from '../UseFakeDbServices/UseFakeDbServices';
 
+//Services Component
+
 const Services = () => {
   const [services] = useFakeDbServices();
   console.log(services);

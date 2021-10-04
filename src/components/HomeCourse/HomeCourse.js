@@ -2,6 +2,8 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './HomeCourse.css';
 
+// Using Home Component as props 
+
 const HomeCourse = props => {
   console.log(props);
   const { title, img, price } = props.freeCourse;

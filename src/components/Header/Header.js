@@ -4,11 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
-  const activeStyle = {
-    fontWeight: 'bold',
-    color: 'red',
-    textDecoration: 'none',
-  };
+  // Creating Header Component Link
   return (
     <div className="nav-container d-flex p-4 justify-content-between">
       <div className="d-flex">

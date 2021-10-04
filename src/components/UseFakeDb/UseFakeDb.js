@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 
+// creating hook component for fake db
+
 const useFakeDb = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {

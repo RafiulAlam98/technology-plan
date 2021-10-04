@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+//Contacts Instructor component
+
 const Instructor = props => {
   const { img, name, designation } = props.instructor;
   return (

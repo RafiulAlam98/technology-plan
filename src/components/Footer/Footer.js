@@ -2,7 +2,10 @@ import {} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css';
+
+
 const Footer = () => {
+  // this is footer section
   return (
     <div>
       <footer className="footer-container mt-5">

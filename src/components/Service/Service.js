@@ -2,6 +2,8 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Service.css';
 
+// Service component we provided in our Website
+
 const Service = props => {
   console.log(props.service);
   const { img, title, description, price } = props.service;

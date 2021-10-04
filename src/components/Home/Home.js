@@ -6,6 +6,8 @@ import HomeCourse from '../HomeCourse/HomeCourse';
 import useFreeCourse from '../UseFreeCourseDb/UseFreeCourseDb';
 import './Home.css';
 
+
+// Home component with carousel Slide
 const Home = () => {
   const [freeCourses] = useFreeCourse();
   return (
