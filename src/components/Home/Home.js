@@ -22,7 +22,7 @@ const Home = () => {
           <Carousel.Item>
             <img
               className="fluid rounded carousel-img"
-              src="https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80"
+              src="https://media.istockphoto.com/photos/the-student-life-picture-id862661268?b=1&k=20&m=862661268&s=170667a&w=0&h=SQ2yAt1TLD6zg_AiAbZdmApZ8N0CmfGRWE_c52LBd6w="
               alt="Second slide"
             />
           </Carousel.Item>
@@ -37,7 +37,7 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="d-flex mt-4 justify-content-around">
+        <div className="d-flex flex-wrap mt-4 align-content-around mb-4 justify-content-around">
           {freeCourses.map(freeCourse => (
             <HomeCourse freeCourse={freeCourse}></HomeCourse>
           ))}

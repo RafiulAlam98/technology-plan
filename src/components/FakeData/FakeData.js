@@ -105,4 +105,34 @@ const courses = [
     title: 'ADOBE PHOTOSHOP FOR BEGINNER',
     price: 'FREE',
   },
+  {
+    id: 1,
+    img: 'https://images.unsplash.com/photo-1617870952348-7524edfb61b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHR1dG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    name: 'Mark Wood',
+    designation: 'Frontend Developer',
+  },
+  {
+    id: 2,
+    img: 'https://images.unsplash.com/photo-1597570889212-97f48e632dad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHR1dG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    name: 'Immo Wegmann',
+    designation: 'Full Stack Developer',
+  },
+  {
+    id: 3,
+    img: 'https://images.unsplash.com/photo-1629360067822-89c74b25bb66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHR1dG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    name: 'Hamid Gool',
+    designation: 'Full Stack Developer',
+  },
+  {
+    id: 4,
+    img: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHV0b3J8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    name: 'Angelina Jessia',
+    designation: 'UI UX Designer',
+  },
+  {
+    id: 5,
+    img: 'https://media.istockphoto.com/photos/the-sales-department-scores-again-picture-id1291751221?b=1&k=20&m=1291751221&s=170667a&w=0&h=PcMe7k0T31nY5_lGAK_c6Us9g4iwGAIg47OVzthSBpk=',
+    name: 'Helena Kart',
+    designation: 'UI UX Designer',
+  },
 ];

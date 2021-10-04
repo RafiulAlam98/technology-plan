@@ -1,11 +1,21 @@
-#nav-container {
+.nav-container {
   background-color: whitesmoke;
 
 }
 
-
+.nav-link {
+  font-size: larger;
+  font-weight: 400;
+  color: black;
+}
 
 .nav-link:hover {
   background-color: teal;
   border-radius: 10px;
+  color: white;
+  }
+
+  .nav-header {
+    color: tomato;
+    font-family: 'Birthstone', cursive;
 }

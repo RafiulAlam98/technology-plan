@@ -10,25 +10,24 @@ const Header = () => {
     textDecoration: 'none',
   };
   return (
-    <div>
-      <Navbar className="p-4" id="nav-container" bg="" variant="light">
-        <Container>
-          <Nav className="me-auto">
-            <NavLink className=" nav-link" to="/home">
-              Home
-            </NavLink>
-            <NavLink className=" nav-link" to="/about">
-              About
-            </NavLink>
-            <NavLink className="nav-link" to="/services">
-              Services
-            </NavLink>
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          </Nav>
-        </Container>
-      </Navbar>
+    <div className="nav-container d-flex p-4 justify-content-between">
+      <div className="d-flex">
+        <NavLink className=" nav-link" to="/home">
+          Home
+        </NavLink>
+        <NavLink className=" nav-link" to="/about">
+          About
+        </NavLink>
+        <NavLink className="nav-link" to="/services">
+          Services
+        </NavLink>
+        <NavLink className="nav-link" to="/contact">
+          Contact
+        </NavLink>
+      </div>
+      <div>
+        <h1 className="nav-header">TECH PLAN BD</h1>
+      </div>
     </div>
   );
 };

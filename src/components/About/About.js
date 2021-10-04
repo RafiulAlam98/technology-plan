@@ -5,7 +5,7 @@ import useFakeDb from '../UseFakeDb/UseFakeDb';
 const About = () => {
   const [courses] = useFakeDb();
   return (
-    <div className="d-flex mt-4 justify-content-around">
+    <div className="d-flex flex-wrap mt-4 align-content-around mb-4 justify-content-around">
       {courses.map(course => (
         <AboutUs key={course.id} course={course}></AboutUs>
       ))}
