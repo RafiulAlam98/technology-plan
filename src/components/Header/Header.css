@@ -1,0 +1,11 @@
+#nav-container {
+  background-color: whitesmoke;
+
+}
+
+
+
+.nav-link:hover {
+  background-color: teal;
+  border-radius: 10px;
+}

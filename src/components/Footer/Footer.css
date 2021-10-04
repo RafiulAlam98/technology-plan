@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: #495052;
+  padding: 40px;
+}
+
+.footer-input {
+
+  padding: 8px;
+  border: 0px;
+}
+
+.footer-btn {
+  padding: 8px;
+  background-color: tomato;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 500;
+}

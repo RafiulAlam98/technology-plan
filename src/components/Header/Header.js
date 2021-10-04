@@ -1,13 +1,32 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
+  const activeStyle = {
+    fontWeight: 'bold',
+    color: 'red',
+    textDecoration: 'none',
+  };
   return (
-    <nav>
-      <NavLink to="/home">Home</NavLink>
-      <NavLink to="/about">About Us</NavLink>
-      <NavLink to="/services">Services</NavLink>
-    </nav>
+    <div>
+      <Navbar className="p-4" id="nav-container" bg="" variant="light">
+        <Container>
+          <Nav className="me-auto">
+            <NavLink className=" nav-link" to="/home">
+              Home
+            </NavLink>
+            <NavLink className=" nav-link" to="/about">
+              About Us
+            </NavLink>
+            <NavLink className="nav-link" to="/services">
+              Services
+            </NavLink>
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 

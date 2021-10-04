@@ -1,9 +1,14 @@
 import React from 'react';
+import AboutUs from '../AboutUs/AboutUs';
+import useFakeDb from '../UseFakeDb/UseFakeDb';
 
 const About = () => {
+  const [courses] = useFakeDb();
   return (
-    <div>
-      <h2>This is About</h2>
+    <div className="d-flex mt-4 justify-content-around">
+      {courses.map(course => (
+        <AboutUs key={course.id} course={course}></AboutUs>
+      ))}
     </div>
   );
 };

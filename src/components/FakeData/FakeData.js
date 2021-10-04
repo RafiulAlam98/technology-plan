@@ -1,0 +1,108 @@
+const courses = [
+  {
+    id: 1,
+    img: 'https://media.istockphoto.com/photos/children-with-face-mask-back-at-school-after-covid19-quarantine-and-picture-id1250037717?b=1&k=20&m=1250037717&s=170667a&w=0&h=oZOweApVZsOTMlE67piFCMi-RQtSUr3l2TLzvsqqQ0g=',
+    title: 'Handwriting',
+    description: 'lorem 100',
+  },
+  {
+    id: 2,
+    img: 'https://media.istockphoto.com/photos/mom-and-little-daughter-outdoor-picture-id1256558922?b=1&k=20&m=1256558922&s=170667a&w=0&h=3ivSbymfiY7qhqDWsE57kmGdjzbTK7UZiY57fNv7SiY=',
+    title: 'counselling',
+    description: 'lorem 100',
+  },
+  {
+    id: 3,
+    img: 'https://media.istockphoto.com/photos/school-corridor-with-lockers-3d-illustration-picture-id1267107338?b=1&k=20&m=1267107338&s=170667a&w=0&h=XQMnVJACk1ojL9HyyyNVqX1R6mq81VDe1iOOKNVtohA=',
+    title: 'School Corridor',
+    description: 'lorem 100',
+  },
+  {
+    id: 4,
+    img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    title: 'CONVOCATION',
+    description: 'lorem 100',
+  },
+
+  {
+    id: 1,
+    img: 'https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+    title: 'MACHINE LEARNING COURSE FOR BEGINNER',
+    description: 'An Application Of Artificial Intelligence (AI)',
+    price: '$90',
+  },
+  {
+    id: 2,
+    img: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'COMPLETE PYTHON BOOTCAMP',
+    description: 'An Interpreted High-Level Programming Language',
+    price: '$70',
+  },
+  {
+    id: 3,
+    img: 'https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2l0aHVifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'GIT AND GITHUB PRACTICAL GUIDES',
+    description:
+      'Git Is A Free And Open Source Distributed Version Control System ',
+    price: '$30',
+  },
+  {
+    id: 4,
+    img: 'https://images.unsplash.com/photo-1551302175-952301267d19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWRvYmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'ADOBE PREMIERE PRO CC',
+    description: 'A Timeline-Based Video Editing Software Application ',
+    price: '$80',
+  },
+  {
+    id: 5,
+    img: 'https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'COMPLETE WEB DEVELOPMENT',
+    description: 'Developing A Web Site For The Internet',
+    price: '$60',
+  },
+  {
+    id: 6,
+    img: 'https://images.unsplash.com/photo-1593720213681-e9a8778330a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGphdmFzY3JpcHR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'BEGINNER FOR JAVASCRIPT',
+    description: ' The Programming Language Of The Web',
+    price: '$50',
+  },
+  {
+    id: 7,
+    img: 'https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlYWN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'REACT FOR COMPLETE BEGINNER',
+    description: ' Open-Source Front-End JavaScript Library ',
+    price: '$70',
+  },
+  {
+    id: 8,
+    img: 'https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5vZGUlMjBqc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
+    title: 'NODE JS FOR COMPLETE BEGINNER',
+    description: ' JavaScript Runtime Built On Chrome V8 JavaScript Engine',
+    price: '$90',
+  },
+  {
+    id: 1,
+    img: 'https://media.istockphoto.com/photos/pattern-of-big-data-led-light-text-from-0-to-1-number-technology-picture-id1254616721?b=1&k=20&m=1254616721&s=170667a&w=0&h=3gMsiI0EItsviDUIJbSQoV-fxY_KrFWnd5fPVmHBzdw=',
+    title: 'JAVASCRIPT BOOTCAMP COMPLETE BEGINNER',
+    price: 'FREE',
+  },
+  {
+    id: 2,
+    img: 'https://media.istockphoto.com/photos/programming-source-code-abstract-background-stock-picture-id1249968875?b=1&k=20&m=1249968875&s=170667a&w=0&h=_9FBnsgp66kQMLKJlecB1zrz_WrkCkaJZnKiepmB4JE=',
+    title: 'HTML AND CSS FOR BEGINNER',
+    price: 'FREE',
+  },
+  {
+    id: 3,
+    img: 'https://media.istockphoto.com/photos/pointing-at-spreadsheet-on-laptop-picture-id1129580722?b=1&k=20&m=1129580722&s=170667a&w=0&h=wdwdkjdTN0IUInGydjO7pjgDeGSaKPx5uCzPXkETt9I=',
+    title: 'MICROSOFT EXCEL FOR ABSOLUTE BEGINNER',
+    price: 'FREE',
+  },
+  {
+    id: 4,
+    img: 'https://media.istockphoto.com/photos/shot-of-a-desktop-computer-in-the-modern-office-with-monitor-showing-picture-id1269257092?b=1&k=20&m=1269257092&s=170667a&w=0&h=OSdNgaYC1YLTSJhs8Mi10ssB7PFIz73q4pupKXhcj90=',
+    title: 'ADOBE PHOTOSHOP FOR BEGINNER',
+    price: 'FREE',
+  },
+];
