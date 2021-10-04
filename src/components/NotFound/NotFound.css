@@ -1,0 +1,10 @@
+.notfound-container {
+  background-color: whitesmoke;
+}
+
+.notfound-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

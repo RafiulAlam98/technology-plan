@@ -13,7 +13,7 @@ const HomeCourse = props => {
         <Card.Title>{title}</Card.Title>
         <Card.Text>{price}</Card.Text>
       </Card.Body>
-      <button className="card-button ms-4 mb-2">MORE INFO</button>
+      <button className="card-button ms-4 mb-2">BUY NOW</button>
     </Card>
   );
 };
